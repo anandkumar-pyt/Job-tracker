@@ -1,0 +1,47 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #141517;
+    margin: 0;
+    padding: 30px;
+    max-width: 100%;
+}
+
+h1 {
+    color: #465877;
+    text-align: center;
+}
+.container{
+display: grid;
+grid-template-columns: auto auto auto auto;
+justify-content: center;
+max-width: 100%;
+}
+.job-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 10px;
+    box-shadow: 0 2px 8px #dddddd;
+    /* width: 35%; */
+    position: relative;
+}
+.job-card:hover{
+    background-color: rgb(144, 144, 206);
+}
+
+.status {
+    color: #2563eb;
+    font-weight: bold;
+}
+form{
+ display: flex;
+ justify-content: center;
+}
+#deleteButton{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    border-radius: 20%;
+}
